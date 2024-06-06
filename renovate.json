@@ -46,7 +46,7 @@
         "(^|\\/).*\\.ya?ml$",
         "(^|\\/).*\\.toml$",
         "(^|\\/).*\\.sh$",
-        "**/*.go"
+        "(^|\\/).*\\.go$"
       ],
       "matchStrings": [
         "(#|\\/\\/) renovate: datasource=(?<datasource>.+?) depName=(?<depName>.+?)\\s.*?(?<separator>\\??=|\\: ?) ?\\\"?(?<currentValue>.+?)?\\\"?\\s"
